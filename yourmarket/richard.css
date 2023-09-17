@@ -1,0 +1,206 @@
+body{
+	margin:0;
+	background:#fff0b3;
+	font-family:Sans-Serif;
+}
+/*-------------------------------------*/
+/* Header plus nav bar*/
+header{
+	background:#ffe066;
+	
+}
+
+header::after{
+	content:'';
+	display:table;
+	clear:both;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+
+.logo{
+	float:left;
+	padding:10px 0;
+}
+
+nav{
+	float:right;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav ul .activ{
+		color:white;
+		font-weight:1000;
+		text-shadow:2px 2px gray;
+}
+nav li{
+	display:inline-block;
+	margin-left:55px;
+	padding-top:25px;
+}
+
+nav a{
+	color:#444;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+/*-------------------------------------*/
+/*Footer*/
+
+.footer{
+	background:#ffd633;
+	text-align:center;
+	float:bottom;
+	width:100%;
+	padding-top:10px;
+	height:20px;
+	font-size:small;
+	font-style:italic;
+
+}
+/*-------------------------------------*/
+/*CSS for the carroussel*/
+
+#slider{
+	width:250px;
+	height:200px;
+	overflow: hidden;
+	position: relative;
+	margin-left:200px;
+}
+
+#slider .images{
+	display: block;
+	width: 6000px;
+	height:200px;
+	margin:0;
+	padding:0;
+}
+
+#slider .image{
+	float: left;
+	list-style-type: none;
+	width:250px;
+	height:200px;
+}
+
+#left{
+	color:green;
+	font-size:3em;
+	position: absolute;
+	margin-left:100px;
+	margin-top:100px;
+}
+
+#right{
+	color:red;
+	font-size:3em;
+	position: absolute;
+	margin-left:500px;
+	margin-top:100px;
+}
+
+td{
+	text-align:center;
+}
+
+/*-------------------------------------*/
+/*CSS for the content*/
+
+.content{
+    position: relative;
+    float: center;
+}
+
+/*-------------------------------------*/
+/*CSS for the sidebar*/
+
+.sidebar{
+    position : absolute;
+    width: 25%;
+    background: #ffe59d;
+    height: 100%;
+    left:0;
+}
+
+.sidebar a{
+    text-decoration:none;
+    display: block;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.sidebar a:hover{
+    background-color: #f1f1f1;
+}
+
+/*-------------------------------------*/
+/*CSS for Items
+
+.items{
+    position: absolute;
+    left: 400px;
+}*/
+
+/*-------------------------------------*/
+/*CSS for the sell*/
+
+.sellform{
+	width:700px;
+	border:solid;
+	margin-left:200px;
+}
+
+.addfiles{
+	position:absolute;
+	left:500px;
+	top:220px;
+}
+
+/*-------------------------------------*/
+/*CSS for the items lists*/
+
+.table-content{
+	border-collapse:collapse;
+	margin:25px 0;
+	font-size:0.9em;
+	min-width:600px;
+	border-radius:5px 5px 0 0;
+	overflow:hidden;
+	box-shadow:0 0 20px gray;
+}
+
+.table-content thead tr{
+	background-color:#ffd11a;
+	color:black;
+	font-weight:bold;
+	
+}
+
+.table-content th,
+.table-content td{
+	padding:12px 15px;
+}
+
+.table-content tbody tr{
+	border-bottom:1px solid #dddddd;
+}
+
+.table-content tbody tr:nth-of-type(even){
+	background-color:#ffeb99;	
+}
+
+.table-content tbody tr:last-of-type{
+	border-bottom:2px solid #ffd11a;
+}
