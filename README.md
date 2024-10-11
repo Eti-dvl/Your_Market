@@ -1,5 +1,4 @@
-# DEPLOYMENT.md
-
+# YOUR MARKET
 ## À propos du projet
 
 Ce projet a été réalisé dans le cadre de ma troisième année d'école d'ingénieur (L3) en binôme. L'objectif était d'apprendre le développement web en créant un site de vente d'articles en ligne, similaire à Amazon. Ce site permet aux utilisateurs d'acheter et de vendre des articles, avec des fonctionnalités comme la gestion des comptes, la navigation par catégories, et un système de panier.
